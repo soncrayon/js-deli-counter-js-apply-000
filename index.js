@@ -4,5 +4,5 @@
    // });
 
 function takeANumber (katzDeli, name) {
-  return `Welcome, ${name}. You are number ${katzDeli.name}
+  return `Welcome, ${name}. You are number ${katzDeli.indexOf(name)}
 }
