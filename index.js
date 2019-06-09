@@ -11,6 +11,9 @@ function takeANumber (katzDeli, name) {
 }
 
 function currentLine (katzDeli) {
+  if (katzDeli == []) {
+    return "The line is currently empty."
+  }
   let line = "";
   for (let i = 0; i < katzDeli.length; i++) {
     line.push(((indexOf(i)) + 1) + `.${i},`); 
