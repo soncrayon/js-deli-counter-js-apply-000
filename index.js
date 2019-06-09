@@ -11,7 +11,7 @@ function currentLine (katzDeli) {
   } else{
   let line = "";
   for (let i = 0; i < katzDeli.length; i++) {
-    line.push(((katzDeli.indexOf(i)) + 1) + `.${i},`); 
+    line.push(`${katzDeli.indexOf(i) + 1} .${i},`); 
   }
   return `The line is currently: ${line}`; 
 }
