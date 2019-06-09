@@ -18,3 +18,6 @@ function currentLine (katzDeli) {
   return `The line is currently: ${line}`; 
 }
 
+function nowServing (katzDeli) {
+  return `Currently serving ${line[0]}.`; 
+}
