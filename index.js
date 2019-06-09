@@ -11,7 +11,7 @@ function takeANumber (katzDeli, name) {
 }
 
 function currentLine (katzDeli) {
-  let line = [];
+  let line = "";
   for (let i = 0; i < katzDeli.length; i++) {
     
   }
