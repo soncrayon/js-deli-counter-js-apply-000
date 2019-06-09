@@ -18,7 +18,7 @@ function currentLine (katzDeli) {
 }
 
 function nowServing (katzDeli) {
-  if (katzDeli == []) {
+  if (isEmpty.katzDeli) {
     return "There is nobody waiting to be served!"; 
   } else {
   return `Currently serving ${katzDeli[0]}.`; 
